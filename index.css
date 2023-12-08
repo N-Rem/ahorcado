@@ -47,8 +47,8 @@ body {
 }
 
 .gif{
-    width: 50vw;
-    height: 75vh;
-    margin: 5vw;
-
+    width: 70vw;
+    height: 95vh;
+    margin: 0vw;
+    object-fit: cover;
 }
