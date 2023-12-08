@@ -16,6 +16,8 @@ body {
     text-align: center;
 
     word-spacing: 0.5lvw ;
+
+    background-color: brown;
 }
 .conten{
     margin-top: 5vh;
