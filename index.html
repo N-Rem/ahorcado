@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ahorcado</title>
+
+    <script src="js/index.js" defer type="module"></script>
+    <!-- <script src="recursos/letras.js" defer type="module"></script>
+    <script src="recursos/palabras.js" defer type="module" ></script> -->
+
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <button id="iniciar">Iniciar</button>
+    <div class="conten" id="principal">
+      <h3 id="titulo">Ahorcado</h3>
+      <div id="App">
+        <h2 id="palabrasEncontradas"></h2>
+
+        <!---- Imagenes del ahorcado ---->
+        <div id="imagenAhorcado"></div>
+
+        <!---- Palabra oculta ---->
+        <h3 id="palabraOculta"></h3>
+
+        <!--Contador de intentos-->
+        <h3>Intentos: <span id="intentos">0</span><br/>Oportunidades: <span id="restantes">9</span></h3>
+
+        <div id="btns">
+          <!--Botones de letras-->
+        </div>
+      
+      </div>
+      <div id="gano"></div>
+      <div id="perdio"></div>
+    </div>
+  </body>
+</html>

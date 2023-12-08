@@ -1,0 +1,1 @@
+export const Palabras = ['manzana','esmeralda','computadora', 'pera', 'uva','guitarra', 'silla', 'lámpara','perro', 'gato', 'pájaro','banana', 'fresa', 'mesa','elefante', 'cama', 'ratón'];
